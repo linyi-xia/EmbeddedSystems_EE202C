@@ -1,0 +1,12 @@
+
+./scanner -b | awk '{
+
+
+major = $2; minor = $3; RSSI = $5;\
+ print major, minor, RSSI;exit}'
+
+#echo | awk '{"grep root ./scanner" | getline cmdout; print cmdout }'
+  
+
+
+

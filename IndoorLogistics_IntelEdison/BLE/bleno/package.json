@@ -1,0 +1,76 @@
+{
+  "name": "bleno",
+  "version": "0.3.1",
+  "description": "A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "scripts": {
+    "pretest": "jshint *.js lib/. test/. examples/.",
+    "test": "mocha -R spec test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandeepmistry/bleno"
+  },
+  "keywords": [
+    "BLE",
+    "Bluetooth",
+    "Bluetooth Low Energy",
+    "Bluetooth Smart",
+    "peripheral"
+  ],
+  "author": {
+    "name": "Sandeep Mistry"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jshint": "~2.3.0",
+    "should": "~2.0.2",
+    "mocha": "~1.14.0",
+    "node-blink1": "~0.1.1"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "bluetooth-hci-socket": "~0.4.0",
+    "bplist-parser": "0.0.6",
+    "xpc-connection": "~0.1.4"
+  },
+  "optionalDependencies": {
+    "bluetooth-hci-socket": "~0.4.0",
+    "bplist-parser": "0.0.6",
+    "xpc-connection": "~0.1.4"
+  },
+  "gitHead": "a7e81ef3e0bf0f9596feb60c733725ec75b7b1e4",
+  "bugs": {
+    "url": "https://github.com/sandeepmistry/bleno/issues"
+  },
+  "homepage": "https://github.com/sandeepmistry/bleno",
+  "_id": "bleno@0.3.1",
+  "_shasum": "86f1db5ab616c55f04f3bd4a6c724997d391c8d5",
+  "_from": "bleno",
+  "_npmVersion": "1.4.21",
+  "_npmUser": {
+    "name": "sandeepmistry",
+    "email": "sandeep.mistry@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sandeepmistry",
+      "email": "sandeep.mistry@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "23da78435cffe4e5835a748495b2f4613f1099de",
+    "tarball": "http://registry.npmjs.org/bleno/-/bleno-0.3.1.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/bleno/-/bleno-0.3.1.tgz",
+  "readme": "ERROR: No README data found!"
+}
